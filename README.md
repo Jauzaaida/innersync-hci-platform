@@ -56,4 +56,4 @@ The interface investigates the relationship between emotional analytics, burnout
 
 ## Live Demo
 
-(taruh GitHub Pages link di sini)
+<https://github.com/Jauzaaida/innersync-hci-platform.git/>
