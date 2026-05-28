@@ -1,0 +1,153 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+/* GLASS EFFECT */
+.glass {
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255,255,255,0.9);
+}
+.glass-blue {
+  background: rgba(121,174,239,0.14);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(169,200,247,0.4);
+}
+
+/* BLOBS */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+.blob-1 {
+  width: 350px;
+  height: 350px;
+  background: #A9C8F7;
+  top: 0;
+  left: -100px;
+  opacity: 0.3;
+}
+.blob-2 {
+  width: 280px;
+  height: 280px;
+  background: #79AEEF;
+  right: -80px;
+  top: 120px;
+  opacity: 0.25;
+}
+
+/* BUTTONS */
+.deep-button {
+  background: linear-gradient(
+    135deg,
+    #4F8FEA,
+    #2F6FD6
+  );
+
+  color: white;
+  padding: 14px 28px;
+  border-radius: 999px;
+
+  font-weight: 600;
+
+  box-shadow:
+    0 12px 30px rgba(47,111,214,0.35),
+    inset 0 1px 1px rgba(255,255,255,0.25);
+
+  transition: all 0.3s ease;
+}
+.deep-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 18px 40px rgba(47,111,214,0.45);
+}
+.soft-button {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(18px);
+
+  color: #4F8FEA;
+
+  padding: 14px 28px;
+
+  border-radius: 999px;
+
+  font-weight: 600;
+
+  border: 1px solid rgba(121,174,239,0.25);
+
+  transition: all 0.3s ease;
+}
+.soft-button:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+.big {
+  padding: 16px 34px;
+}
+
+/* GUIDANCE CARD */
+.guidance-card {
+  background: linear-gradient(
+    180deg,
+    rgba(93,151,229,0.95),
+    rgba(121,174,239,0.9)
+  );
+
+  border-radius: 28px;
+
+  padding: 28px;
+
+  color: white;
+
+  box-shadow:
+    0 18px 40px rgba(93,151,229,0.22);
+
+  transition: all 0.35s ease;
+}
+.guidance-card:hover {
+  transform: translateY(-6px);
+}
+.guidance-tag {
+  display: inline-block;
+
+  background: rgba(255,255,255,0.2);
+
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  margin-bottom: 18px;
+}
+.guidance-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.guidance-desc {
+  color: rgba(255,255,255,0.88);
+  line-height: 1.7;
+}
+.guidance-detail {
+  margin-top: 18px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid rgba(255,255,255,0.2);
+
+  color: rgba(255,255,255,0.8);
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
